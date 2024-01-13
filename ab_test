@@ -15,6 +15,7 @@
 -- followed by window functions to obtain control group metrics for comparison.
 -- A final join with a normal distribution table provides the p-value based on the calculated t-statistic.
 
+-- The data is sourced from the 'tutorial.yammer_users' and 'tutorial.yammer_events' tables and analyzed using a combination of JOIN operations and aggregate functions.
 
 SELECT c.experiment,
        c.experiment_group,
