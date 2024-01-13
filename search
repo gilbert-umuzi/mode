@@ -17,6 +17,9 @@ Calculates the proportion of sessions with autocompletes, search runs, and click
 
 ##Objective:
 The query aims to provide insights into how users are interacting with the search functionality in Yammer over time, highlighting patterns or trends in user engagement with the search tool on a weekly basis. 
+
+##Data:
+The data is sourced from the 'tutorial.yammer_events' table and analyzed using a combination of JOIN operations and aggregate functions.
 */
 
 
