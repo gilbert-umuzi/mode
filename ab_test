@@ -1,3 +1,21 @@
+-- Analysis of A/B Test Results in Yammer Experiment
+-- This query is designed to analyze the outcomes of the 'publisher_update' experiment in Yammer. 
+-- It focuses on comparing the user engagement between the control group and the treatment group.
+
+-- The query performs the following analyses:
+-- 1. Aggregates user metrics based on their experiment group (control or treatment).
+-- 2. Calculates the percentage of users in each group relative to the total number of treated users.
+-- 3. Computes the average number of messages sent by users in each group.
+-- 4. Determines the rate difference and rate lift between the control and treatment groups.
+-- 5. Calculates standard deviation and variance for user engagement metrics in each group.
+-- 6. Derives the t-statistic to assess the statistical significance of the difference between groups.
+-- 7. Estimates the p-value for the t-statistic to determine the likelihood of the observed results.
+
+-- Nested queries are utilized to compute aggregate statistics, 
+-- followed by window functions to obtain control group metrics for comparison.
+-- A final join with a normal distribution table provides the p-value based on the calculated t-statistic.
+
+
 SELECT c.experiment,
        c.experiment_group,
        c.users,
