@@ -14,12 +14,10 @@ This repository contains my analysis and learnings from the [Mode / SQL Yammer t
 * Incremental Query Building: Developing complex SQL queries incrementally, from simpler inner queries to more intricate outer layers, proved beneficial for both understanding and future reusability.
 
 ##Repository Structure
-* data/: Sample data files used in the project are available as part of the [Mode tutorial](https://mode.com/sql-tutorial/a-drop-in-user-engagement).
-* sql_queries/: This directory contains all the SQL query files used in the analysis.
-* python_notebooks/: This directory includes Python notebooks integrating with the SQL queries for statistical analysis.
-
-* visualizations/: Any visualizations (graphs, charts) generated as part of the analysis.
-* report/: Final report detailing the findings and insights from the tutorial.
+* data: Sample data files used in the project are available as part of the [Mode tutorial](https://mode.com/sql-tutorial/a-drop-in-user-engagement).
+* sql_queries: Three sample queries are presented: engagement, search, and ab test.
+* python_notebook: focusing on the ab test.
+* report: Final report detailing the findings and insights from the tutorial.
 
 ##Running the Analysis
 To replicate or build upon this analysis:
