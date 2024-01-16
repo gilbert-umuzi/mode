@@ -21,7 +21,7 @@ This repository contains my analysis and learnings from the [Mode / SQL Yammer t
 
 
 ## Dependencies
-* Mode
+* Mode Analytics
 * SQL (compatible with Mode Analytics environment)
 * Python 3.X
 * Libraries: pandas, matplotlib, seaborn, scipy
