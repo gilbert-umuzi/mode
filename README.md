@@ -1,7 +1,7 @@
 # Mode / SQL Yammer Case Study
 
 ## Introduction
-This repository contains my analysis and learnings from the [Mode / SQL Yammer case study](https://mode.com/sql-tutorial/a-drop-in-user-engagement). The project focuses on investigating user engagement on Yammer, a messaging platform, using Mode and a combination of SQL queries and Python analysis. The tutorial provided an opportunity to delve into real-world data analysis scenarios, enhancing my skills in SQL, Python, and data visualization.
+This repository contains my analysis and learnings from the [Mode / SQL Yammer case study](https://mode.com/sql-tutorial/a-drop-in-user-engagement). The project focuses on investigating user engagement on Yammer, a messaging platform, using Mode and a combination of SQL queries and Python analysis. The tutorial provided an opportunity to test Mode, applying SQL, Python, and data visualization skills.
 
 ## Key Learnings
 ### Integration of SQL and Python in Mode
