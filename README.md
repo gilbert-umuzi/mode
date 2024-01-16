@@ -14,8 +14,8 @@ This repository contains my analysis and learnings from the [Mode / SQL Yammer c
 * Incremental Query Building: Developing complex SQL queries incrementally, from simpler inner queries to more intricate outer layers, proved beneficial for both understanding and future reusability.
 
 ## Repository Structure
-* report: final report detailing the findings and insights from the tutorial - Mode-yammer-case-study.pdf
-* sql_queries: three sample queries are presented: engagement, search, and ab test.
+* report: final report detailing the findings and insights from the tutorial - Yammer-case-study.pdf
+* sql_queries: three sample queries are presented: engagement, search, and ab_test.
 * python_notebook: focusing on the ab test - python3-notebook_yammer-case-study.py
 * data: sample data files used in the project are available as part of the [Mode case study](https://mode.com/sql-tutorial/a-drop-in-user-engagement).
 
